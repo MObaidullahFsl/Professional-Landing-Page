@@ -1,0 +1,197 @@
+.aboutTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(-45deg, #0fe4d3, #15b77c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+  font-weight: 800;
+  margin: 100px 300px;
+
+  -webkit-text-fill-color: transparent
+}
+
+.abt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgb(91, 90, 90);
+  line-height: 1.5;
+}
+
+.inter1 {
+  display: block;
+}
+
+.textabt {
+  line-height: 1.5;
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgb(91, 90, 90);
+  margin-left: 20px;
+}
+
+.abtAll {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 70px;
+  padding: 10px 80px;
+  max-width: 100%;
+  border-left: 3px solid #1f7a8c;
+  border-right: 3px solid #1f7a8c;
+
+  border-left-style: dotted;
+  border-right-style: dotted;
+
+  margin-bottom: 200px;
+
+}
+
+.abtimg {
+  max-width: 360px;
+  height: auto;
+
+}
+
+.contentabt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.titleabt {
+  font-weight: 800;
+  line-height: 1.5;
+  margin-top: 10px;
+  font-size: 20px;
+  color: rgb(91, 90, 90);
+  border-left: 10px solid #1f7a8c;
+  padding: 1px 20px;
+}
+
+.listabt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+  gap: 10px;
+  line-height: 1.5;
+  margin: 20px 10px;
+
+}
+
+.listText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.listText li {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(91, 90, 90);
+  margin-left: 20px;
+}
+
+.textabt.list {
+  margin-bottom: 10px;
+}
+
+@media screen and (width < 768px) {
+  .aboutTitle {
+    padding: 60px 10px;
+    margin: 0px;
+    font-size: 35px;
+  }
+
+  .titleabt {
+    margin: 20px 10px;
+  }
+
+  .titleabt {
+    font-size: 20px;
+    padding: 1px 10px;
+  }
+
+  .listText li {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  .textabt {
+    margin-top: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+
+  .abtAll {
+    padding: 10px 2px;
+    margin: 1px;
+
+
+  }
+
+  .abt {
+    flex-direction: column;
+    font-size: 15px;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .aboutTitle {
+      padding: 60px 10px;
+      margin: 0px;
+      font-size: 35px;
+    }
+
+    .titleabt {
+      margin: 20px 10px;
+    }
+
+    .titleabt {
+      font-size: 20px;
+      padding: 1px 10px;
+    }
+
+    .listText li {
+      font-size: 15px;
+      margin-left: 10px;
+    }
+
+    .textabt {
+      margin-top: 5px;
+      font-size: 15px;
+      margin-left: 10px;
+    }
+
+
+    .abtAll {
+      padding: 10px 2px;
+      margin: 1px;
+
+
+    }
+
+    .abt {
+      flex-direction: column;
+      font-size: 15px;
+    }
+
+  }
+
+

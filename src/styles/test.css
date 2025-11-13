@@ -1,0 +1,159 @@
+.introSlide.test .intro{
+    font-size: 60px;
+    margin-bottom:5px;
+    
+}
+.introSlide.test .hook{
+      font-size: 20px;
+}
+.introSlide.test .degrees{
+        font-size: 30px;
+}
+.introSlide.test{
+    padding: 100px 0px;
+}
+
+.tstContent,.tstRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.tstContent{
+    margin: 100px 20px;
+    flex-wrap: wrap;
+    gap:10px;
+    padding: 20px 10px;
+    margin: 10px 20px;
+}
+.tstBox,.tstName{
+    display: flex;
+    flex-direction: column;
+   justify-content:space-between;
+    align-items: flex-start;
+}
+
+.tstRow{
+    gap:10px;
+}
+.tstTop{
+    font-size: 18px;
+    font-weight: 700;
+}
+.tstBottom{
+    font-size: 14px;
+    color: rgb(79, 79, 79);
+}
+.tstBox{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 30px 40px;
+    width: 85vw;
+    max-height: max-content;
+    gap: 30px;
+    margin: 15px 1px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    transition: transform 0.3s ease-out;
+}
+.tstBox:hover{
+    transform: scale(1.005);
+}
+
+.tstimg{
+    width: 30px;
+}
+.tstText{
+    line-height: 1.5;
+}
+
+.fbLink.tst{
+margin: 0px auto; 
+width: 12%;
+margin-bottom: 150px;
+text-align: center;
+}
+
+@media screen and (width < 768px) {
+.introSlide.test{
+    padding:100px 0px;
+}
+.introSlide.test .intro{
+    font-size: 50px;
+    margin-bottom:3px
+}
+.introSlide.test .hook{
+      font-size: 15px;
+}
+.introSlide.test .degrees{
+        font-size: 15px;
+}
+
+
+.tstTop{
+    font-size: 14px;
+    
+}
+.tstBottom{
+    font-size: 12px;
+    
+}
+.tstBox{
+    
+    border-radius: 5px;
+    padding: 15px 20px;
+    width: 85vw;
+    font-size: 20px;
+    gap: 30px;
+    margin: 10px 1px;
+
+}
+.tstText{
+    font-size: 15px;
+}
+.fbLink.tst{
+    font-size: 12px;
+    width: 100%;
+}
+}
+@media screen and (max-width : 768px) {
+.introSlide.test{
+    padding:100px 0px;
+}
+.introSlide.test .intro{
+    font-size: 50px;
+    margin-bottom:3px
+}
+.introSlide.test .hook{
+      font-size: 15px;
+}
+.introSlide.test .degrees{
+        font-size: 15px;
+}
+
+
+.tstTop{
+    font-size: 14px;
+    
+}
+.tstBottom{
+    font-size: 12px;
+    
+}
+.tstBox{
+    
+    border-radius: 5px;
+    padding: 15px 20px;
+    width: 85vw;
+    font-size: 20px;
+    gap: 30px;
+    margin: 10px 1px;
+
+}
+.tstText{
+    font-size: 15px;
+}
+.fbLink.tst{
+    font-size: 12px;
+    width: 100%;
+}
+}

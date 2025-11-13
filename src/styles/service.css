@@ -1,0 +1,320 @@
+.SrvContent h1 {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(-45deg, #0fe4d3, #15b77c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 100px 300px;
+}
+
+.SrvContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.SrvContent li {
+    list-style-type:disc;
+    font-size: 17px;
+    color: rgb(87, 86, 86);
+    padding: 5px 3px;
+    line-height: 1.5;
+    font-style: oblique;
+    font-weight: 500;
+
+}
+
+.caseBody.srv {
+    width: 100%;
+    align-self: flex-start;
+    
+    padding: 19px 0px;
+    
+    margin: 0;
+    line-height: 1.3;
+    
+
+}
+
+.normalHeading.srv {
+    border-left: 10px solid #1f7a8c;
+    padding: 3px 20px;
+}
+
+.medAch.srv {
+    max-height: fit-content;
+    padding: 20px;
+
+}
+
+.cases.srv {
+    width: 100%;
+}
+
+.srvImgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.srvImgs img {
+    object-fit: contain;
+    width: 330px;
+}
+
+.srvImgs.container {
+    padding: 15px 10px;
+    border: 2px solid #1f7a8c;
+    border-radius: 4px;
+    border-style: dotted;
+    margin: 4px 10px;
+
+}
+
+.srvImgs li {
+
+    width: 280px;
+    height: 240px;
+    list-style: none;
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.srvc {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    gap:20px;
+}
+.cta{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #59e8b4;
+    max-width: 60%;
+    height: fit-content;
+    margin: 0px auto; 	
+    padding: 30px 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    
+}
+.ctaBox{
+    margin-bottom: 250px;
+
+}
+.cta img{
+    width:50px;
+    margin: 5px 10px;
+
+}
+.ctaHook{
+    font-size: 30px;
+    font-weight: 700;
+    margin:10px;
+    
+}
+.cta > div{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.buttonsCta{
+    flex-direction: column;
+    gap:5px;
+}
+.line{
+    font-size: 14px;
+    color: rgb(97, 96, 96);
+}
+
+.srvc > div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+
+
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05);
+}
+
+.srvList{
+    margin: 15px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.listabt.srvl{
+    margin:100px 10px;
+}
+
+@media screen and (width < 768px) {
+    .SrvContent li{
+        font-size: 15px;
+    }
+    .caseList.srv{
+        margin: 0px;
+        padding:5px;
+    }
+    .medAch.srv{
+        padding: 5px 15px;
+    }
+    .srvImgs{
+        max-height: 0px;
+        max-width: 0px;
+        overflow: hidden;
+        
+    }
+    .SrvContent{
+        padding: 5px;
+    }
+
+    .SrvContent h1{
+        font-size: 40px;
+    }
+
+    .caseList.srv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+
+    }
+    .caseBody.srv{
+        padding:5px;
+    }
+    .srvc > div{
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .cta{
+        max-width: 85%;
+        padding: 15px 20px;        
+
+    }
+    .cta img{
+    width:30px;
+    margin: 5px 10px;
+    }
+    .ctaHook{
+        font-size: 15px;
+    }
+    .button-33{
+        font-size: 10px;
+    }
+    .line{
+        font-size: 10px;
+        text-align: center;
+    }
+    .medAch.srv{
+        margin-bottom: 50px;
+    }
+    .ctaBox{
+    margin-bottom: 50px;
+    }
+}
+@media screen and (max-width : 768px) {
+    .SrvContent li{
+        font-size: 15px;
+    }
+    .caseList.srv{
+        margin: 0px;
+        padding:5px;
+    }
+    .medAch.srv{
+        padding: 5px 15px;
+    }
+    .srvImgs{
+        max-height: 0px;
+        max-width: 0px;
+        overflow: hidden;
+        
+    }
+    .SrvContent{
+        padding: 5px;
+    }
+
+    .SrvContent h1{
+        font-size: 40px;
+    }
+
+    .caseList.srv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+
+    }
+    .caseBody.srv{
+        padding:5px;
+    }
+    .srvc > div{
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .cta{
+        max-width: 85%;
+        padding: 15px 20px;        
+
+    }
+    .cta img{
+    width:30px;
+    margin: 5px 10px;
+    }
+    .ctaHook{
+        font-size: 15px;
+    }
+    .button-33{
+        font-size: 10px;
+    }
+    .line{
+        font-size: 10px;
+        text-align: center;
+    }
+    .medAch.srv{
+        margin-bottom: 50px;
+    }
+    .ctaBox{
+    margin-bottom: 50px;
+    }
+}

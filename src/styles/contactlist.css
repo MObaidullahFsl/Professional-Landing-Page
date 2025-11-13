@@ -1,0 +1,155 @@
+.contactUsTitle.List{
+    padding:20px;
+    margin-bottom: 0px;
+}
+
+.contactUsList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px
+}
+
+.culFollow,.culBtn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.contactListText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-bottom: 30px;
+}
+.wsNo.cul{
+    font-size: 20px;
+    gap:10px;
+}
+.wsNo.cul img{
+    width: 30px;
+}
+.wsNo.cul a{
+    margin-left: 50px;
+}
+
+.culFollow img{
+    width: 50px;
+    height: 50px;
+    border: 5px solid #1f7a8cce;
+
+}
+.culFollow .footerLinks{
+    gap:30px;
+}
+
+.culBtn .contactUsLine,.culFollow .contactUsLine{
+    margin-bottom: 30px;
+}
+
+.titleabt.cul{
+    display: flex;
+    gap:100px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease;
+}
+.culBtn{
+    margin: 50px;
+}
+.culButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clickable{
+    text-decoration: underline;
+    color:blue;
+    cursor: pointer;
+}
+
+.titleabt.cul:hover{
+    transform: scale(1.01);
+    
+}
+
+@media screen and (width < 768px) {
+
+    .contactUsLine b{
+        font-size: 18px;
+    }
+    .contactUsLine{
+        margin: 10px;
+    }
+    
+    .titleabt.cul{
+    
+    gap:25px;
+    margin-bottom: 10px;
+    }
+
+    .titleabt.cul div{
+        font-size: 15px;
+    }
+
+    .contactUsTitle.List{
+    padding:15px;
+    margin-bottom: 0px;
+    font-size: 40px;
+        }
+
+    .culFollow img{
+    width: 35px;
+    height: 35px;
+    border: 3px solid #1f7a8cce;
+    }
+
+    .culFollow .footerLinks{
+    gap:20px;
+    }
+}
+
+footerLinks a { display: inline-block; }
+
+
+
+@media screen and (max-width : 768px) {
+
+    .contactUsLine b{
+        font-size: 18px;
+    }
+    .contactUsLine{
+        margin: 10px;
+    }
+    
+    .titleabt.cul{
+    
+    gap:25px;
+    margin-bottom: 10px;
+    }
+
+    .titleabt.cul div{
+        font-size: 15px;
+    }
+
+    .contactUsTitle.List{
+    padding:15px;
+    margin-bottom: 0px;
+    font-size: 40px;
+        }
+
+    .culFollow img{
+    width: 35px;
+    height: 35px;
+    border: 3px solid #1f7a8cce;
+    }
+
+    .culFollow .footerLinks{
+    gap:20px;
+    }
+}
+

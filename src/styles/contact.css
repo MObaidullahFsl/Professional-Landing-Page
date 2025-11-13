@@ -1,0 +1,303 @@
+.mainContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin: 50px 0px;
+  gap: 10px;
+  width: 100%;
+}
+
+.contactInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 70%;
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  gap:20px;
+}
+
+.contactUsTitle {
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(-45deg, #0fe4d3, #15b77c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 50px 100px;
+}
+
+.contactUsHook {
+  font-size: 30px;
+  text-align: center;
+}
+
+.contactUsLine {
+  font-size: 25px;
+  color: rgb(126, 124, 124);
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.names {
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;  
+  width: 98%;
+  gap: 30px;
+}
+
+.firstName,
+.lastName,
+.email,
+.phone,
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+
+}
+
+.firstName,
+.lastName {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.fnLabel,
+.lnLabel,.emailLabel,
+.phoneLabel,
+.messageLabel {
+  font-size: 20px;
+  max-width: 100%;
+
+}
+
+.fnInput,
+.lnInput,
+.emailInput,
+.phoneInput,
+.messageInput {
+  appearance: none;
+  padding: 20px 10px;
+  color: rgb(126, 124, 124);
+  border: 2px solid rgb(126, 124, 124);
+  border-radius: 5px;
+  width: 98%;
+}
+
+.messageInput {
+
+  height: 100px;
+}
+.policy {
+  display: flex;
+  margin: 10px 0px;
+  gap: 10px;
+}
+
+.statusBar img {
+  width: 30px;
+}
+
+.statusBar {
+  white-space: nowrap;
+}
+
+.loading {
+  animation: spin 2s ease infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  max-width: 100%;
+  text-align: center;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3.disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.myPhoneContainer .myPhoneInput {
+  appearance: none;
+  padding: 30px 0px;
+  color: rgb(126, 124, 124);
+  border: 2px solid rgb(126, 124, 124);
+  border-radius: 5px;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 48px;
+  font: 20px;
+}
+@media screen and (width < 768px) {
+  .contactInputs {
+    width: 85%;
+    margin-right: 10px;
+  }
+
+  .contactUsTitle {
+   font-size: 45px; 
+    margin: 20px 10px;
+}
+
+.contactUsLine{
+  font-size: 15px;
+  margin: 20px 50px;
+}
+
+.fnLabel,
+.lnLabel,.emailLabel,
+.phoneLabel,
+.messageLabel {
+  font-size: 14px;
+  max-width: 100%;
+
+}
+
+.fnInput,
+.lnInput,
+.emailInput,
+.phoneInput,
+.messageInput {
+  
+  padding: 15px 10px;
+  width: 98%;
+  font-size: 12px;
+}
+.policy{
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.button-3{
+  font-size: 12px;
+}
+}
+
+@media screen and (max-width: 768px) { 
+    .contactInputs {
+    width: 85%;
+    margin-right: 10px;
+  }
+
+  .contactUsTitle {
+   font-size: 45px; 
+    margin: 20px 10px;
+}
+
+.contactUsLine{
+  font-size: 15px;
+  margin: 20px 50px;
+}
+
+.fnLabel,
+.lnLabel,.emailLabel,
+.phoneLabel,
+.messageLabel {
+  font-size: 14px;
+  max-width: 100%;
+
+}
+
+.fnInput,
+.lnInput,
+.emailInput,
+.phoneInput,
+.messageInput {
+  
+  padding: 15px 10px;
+  width: 98%;
+  font-size: 12px;
+}
+.policy{
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.button-3{
+  font-size: 12px;
+}
+}
