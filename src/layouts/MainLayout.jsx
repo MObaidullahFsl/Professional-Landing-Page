@@ -306,7 +306,7 @@ function MainLayout() {
             <div className="follow">
               <div className="footerLinks">
                 <div className="">
-                  <a href="https://www.instagram.com/javariazahra/"></a>
+                  <a href="https://www.instagram.com/who/"></a>
                   <img src={igimg} alt="ig" className="instagram footerimg" />
                 </div>
 
@@ -314,22 +314,23 @@ function MainLayout() {
                   className="
             "
                 >
-                  <a href="https://www.youtube.com/@javariazahra_psychologist">
+                  <a href="https://www.youtube.com/channel/UC07-dOwgza1IguKA86jqxNA">
                     <img src={ytimg} alt="yt" className="youtube footerimg" />
                   </a>
                 </div>
 
                 <div className="">
-                  <a href="https://www.linkedin.com/in/javaria-zahra-gold-medalist-10914475/">
+                  <a href="https://www.linkedin.com/company/world-health-organization/">
                     <img src={inimg} alt="ws" className="whatsapp footerimg" />
                   </a>
                 </div>
                 <div className="">
-                  <a href="https://www.facebook.com/p/Javaria-Zahra-100094043812669/">
+                  <a href="https://www.facebook.com/WHO/">
                     <img src={fbimg} alt="fb" className="facebook footerimg" />
                   </a>
                 </div>
               </div>
+            
             </div>
           </div>
           <div className="addresses">

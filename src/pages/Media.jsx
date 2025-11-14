@@ -153,43 +153,44 @@ useEffect(() => {
             <h3 className="normalHeading">Recent Activity & Events</h3>
           </div>
 
-          <FadeIn>
-            <li className="inCard">
-              <iframe
-                src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7359593381737492480?collapsed=1"
-                height="876"
-                width="100"
-                frameborder="0"
-                allowfullscreen=""
-                title="Embedded post"
-              ></iframe>
-            </li>
-          </FadeIn>
-          <FadeIn>
-            <li className="inCard">
-              <iframe
-                src="https://www.linkedin.com/embed/feed/update/urn:li:share:7358160069277966340?collapsed=1"
-                height="668"
-                width="504"
-                frameborder="0"
-                allowfullscreen=""
-                title="Embedded post"
-              ></iframe>
-            </li>
-          </FadeIn>
+<FadeIn>
+  <li className="inCard">
+    <iframe
+      src="https://www.linkedin.com/embed/feed/update/urn:li:share:7394660816500981760?collapsed=1" 
+      height="876"
+      width="100%"
+      frameborder="0"
+      allowfullscreen=""
+      title="Embedding Ethics in NHS AI Deployment"
+    ></iframe>
+  </li>
+</FadeIn>
 
-          <FadeIn>
-            <li className="inCard">
-              <iframe
-                src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7356660043536121857?collapsed=1"
-                height="876"
-                width="504"
-                frameborder="0"
-                allowfullscreen=""
-                title="Embedded post"
-              ></iframe>
-            </li>
-          </FadeIn>
+<FadeIn>
+  <li className="inCard">
+    <iframe
+      src="https://www.linkedin.com/embed/feed/update/urn:li:share:7394313206808158208?collapsed=1"
+      height="876"
+      width="100%"
+      frameborder="0"
+      allowfullscreen=""
+      title="Adopt, Spread & Embed Programme NHS Wales"
+    ></iframe>
+  </li>
+</FadeIn>
+
+<FadeIn>
+  <li className="inCard">
+    <iframe
+      src="https://www.linkedin.com/embed/feed/update/urn:li:share:7393950646304997376?collapsed=1" 
+      height="876"
+      width="100%"
+      frameborder="0"
+      allowfullscreen=""
+      title="NHS Race & Health Observatory Community Participation"
+    ></iframe>
+  </li>
+</FadeIn>
 
           {/* <FadeIn>
             <li className="inCard">
@@ -206,7 +207,7 @@ useEffect(() => {
 
           <div className="fbLink tst">
             <a
-              href="https://www.linkedin.com/in/javaria-zahra-gold-medalist-10914475/"
+              href="https://www.linkedin.com/company/world-health-organization"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -215,6 +216,7 @@ useEffect(() => {
           </div>
         </div>
       </section>
+
       <section className="pictureGallery">
         <div className="medAchHolder pic">
           <div

@@ -69,30 +69,33 @@ function ContactList() {
           <div className="contactUsLine">
             <b>Follow our pages!</b>
           </div>
-          <div className="footerLinks">
-            <div>
-              <a href="https://www.instagram.com/placeholder/"></a>
-              <img src={igimg} alt="ig" className="instagram footerimg" />
-            </div>
+  <div className="footerLinks">
+                <div className="">
+                  <a href="https://www.instagram.com/who/"></a>
+                  <img src={igimg} alt="ig" className="instagram footerimg" />
+                </div>
 
-            <div>
-              <a href="https://www.youtube.com/@placeholder">
-                <img src={ytimg} alt="yt" className="youtube footerimg" />
-              </a>
-            </div>
+                <div
+                  className="
+            "
+                >
+                  <a href="https://www.youtube.com/channel/UC07-dOwgza1IguKA86jqxNA">
+                    <img src={ytimg} alt="yt" className="youtube footerimg" />
+                  </a>
+                </div>
 
-            <div>
-              <a href="https://www.linkedin.com/in/placeholder/">
-                <img src={inimg} alt="linkedin" className="linkedin footerimg" />
-              </a>
-            </div>
-
-            <div>
-              <a href="https://www.facebook.com/placeholder/">
-                <img src={fbimg} alt="fb" className="facebook footerimg" />
-              </a>
-            </div>
-          </div>
+                <div className="">
+                  <a href="https://www.linkedin.com/company/world-health-organization/">
+                    <img src={inimg} alt="ws" className="whatsapp footerimg" />
+                  </a>
+                </div>
+                <div className="">
+                  <a href="https://www.facebook.com/WHO/">
+                    <img src={fbimg} alt="fb" className="facebook footerimg" />
+                  </a>
+                </div>
+              </div>
+            
         </div>
 
         <div className="culBtn">
