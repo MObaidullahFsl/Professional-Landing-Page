@@ -23,12 +23,12 @@ export default function ChatBot({ visible, setVisible }) {
   // chatbot states
   const states = {
     greeting: {
-      message: "Welcome to Al Zahra Psychologists!",
+      message: "Welcome to Lorem Psychologists!",
       options: ["Continue"],
     },
     menu: {
       message:
-        "Greetings and welcome to Al Zahra Psychologists, where your well-being is our top priority. Please choose an option:",
+        "Greetings and welcome to Lorem Psychologists, where your well-being is our top priority. Please choose an option:",
       options: [
         "Book a new appointment",
         "Check Services",
@@ -307,7 +307,7 @@ export default function ChatBot({ visible, setVisible }) {
           <img src={back} alt="" onClick={handleClose} />
         </div>
         <div className="cbTitle">
-          <div className="cbName">Al Zahra Psychologists</div>
+          <div className="cbName">Lorem Psychologists</div>
           <div className="cbHook">How can we help you?</div>
         </div>
         <div className="cbRe">

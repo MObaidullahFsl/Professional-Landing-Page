@@ -39,7 +39,7 @@ import email from "./icons/email.png";
 import logo from "./logo/logo.png";
 import logoSmall from "./logo/logoTop.png";
 import prim from "./portraits/primaryPicture.jpg"
-import sec from "./portraits/secPic.jpeg"
+import sec from "./portraits/secPic.jpg"
 import sec2 from "./portraits/sec2.jpg"
 
 import loading from "./icons/loading.png"

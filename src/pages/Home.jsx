@@ -24,7 +24,6 @@ import FadeIn from "../components/FadeIn";
 
 import expertiseList from "../data/services.json";
 import backupData from "../data/testimonials_backup.json";
-
 const Home = () => {
   console.log("Home");
 
@@ -75,7 +74,6 @@ const Home = () => {
         (!isDesktop && CurrentSlide !== maxSlideMobile));
 
     if (canMoveLeft || canMoveRight) {
-      // console.log(`moving ${direction}`);
       setCurrentSlide((prev) => (direction === "left" ? prev - 1 : prev + 1));
     }
   }
@@ -118,30 +116,26 @@ const Home = () => {
       <section className="introSlide">
         <video src={vid} poster={th1} autoPlay muted loop playsInline></video>
         <div className="gradient"></div>
-        
+
         <div className="introContent">
           <FadeIn>
             <div className="hook">
-              “There is no Health without Mental Health”
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
             </div>
 
-            <div className="intro">Ms. Javaria Zahra </div>
-            <div className="medal">Gold Medalist</div>
+            <div className="intro">Lorem Ipsum</div>
+            <div className="medal">Dolor Sit Amet</div>
 
             <div className="degrees">
-              Senior Licensed Psychologist & Mental Health Professional /
-              Trainer
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit / Sed do
               <span class="break"></span>
-              MD / MS / MPhil Applied Psychology 
-              <span className="mobil">
-              (Gold Medal)
-              </span>
+              Ut enim ad minim veniam
+              <span className="mobil">(quis nostrud exercitation)</span>
               <span class="break"></span>
-              Master of Science (MSc) Applied Psychology
+              Duis aute irure dolor in reprehenderit
               <span class="break mobil"></span>
-               Beck Institute CBT Certified Clinician (BICBT-CC) (USA)
-              <span class="break"></span>
-              UAE License No. CDA - PL- 0001399
+              Excepteur sint occaecat cupidatat non proident
+             
             </div>
           </FadeIn>
           <div className="introAbout">
@@ -155,7 +149,6 @@ const Home = () => {
               Learn More
             </button>
           </div>
-
         </div>
       </section>
 
@@ -163,14 +156,11 @@ const Home = () => {
         <img src={prim} alt="" className="qouteImg" />
         <div className="q">
           <div>
-            <span className="quotationMarks">"</span> Ms. Javaria Zahra is a
-            highly motivated and passionate CDA licensed Psychologist and Mental
-            Health Professional / Trainer with over 16 years of professional and
-            clinical experience. Throughout her career, she has exhibited
-            exemplary skills and expertise gained from prominent institutions in
-            both the United Arab Emirates and Pakistan. Furthermore she has
-            authored a book, “Development of Learning Disabilities Scale (LDS),”
-            which was published by LAP- LAMBERT Academic Publishing, Germany.
+            <span className="quotationMarks">"</span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            facilisis, justo sed bibendum sagittis, sapien risus convallis
+            lectus, non vehicula purus enim in arcu. Integer malesuada lorem vel
+            mauris elementum, at dignissim turpis placerat.
             <span className="quotationMarks">"</span>
           </div>
 
@@ -208,8 +198,10 @@ const Home = () => {
                       alt={`card-${index}`}
                       className="cardImage"
                     />
-                    <div className="cardTitle">{expertiseList[index].name}</div>
-                    <div className="text">{expertiseList[index].desc}</div>
+                    <div className="cardTitle">Lorem Ipsum</div>
+                    <div className="text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </div>
                   </div>
                 </FadeIn>
               ))}
@@ -225,8 +217,8 @@ const Home = () => {
             Why <span>Choose Us?</span>
           </div>
           <div className="whySubscript">
-            The Right Support Can Change Everything — Here’s Why <b>We</b> are
-            the Right Choice
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
+            dui et urna consequat vulputate.
           </div>
         </div>
         <div className="whyContent">
@@ -235,10 +227,10 @@ const Home = () => {
               <div className="whyPoint 1">
                 <img src={card7} alt="" className="whyImg" />
                 <div className="wpText">
-                  <div className="pointTitle">Unrivaled Experience</div>
+                  <div className="pointTitle">Lorem Ipsum</div>
                   <div className="pointText">
-                    With more than 16 years of dedicated practice, we bring deep
-                    insight and proven methods to every client’s care.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla facilisi.
                   </div>
                 </div>
               </div>
@@ -246,33 +238,28 @@ const Home = () => {
               <div className="whyPoint 2">
                 <img src={card1} alt="" className="whyImg" />
                 <div className="wpText">
-                  <div className="pointTitle">Patient-Certified Excellence</div>
+                  <div className="pointTitle">Dolor Sit Amet</div>
                   <div className="pointText">
-                    Trusted and recommended by the very people we serve,
-                    reflecting our consistent commitment to results and
-                    satisfaction.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore.
                   </div>
                 </div>
               </div>
               <div className="whyPoint 3">
                 <img src={card2} alt="" className="whyImg" />
                 <div className="wpText">
-                  <div className="pointTitle">Skilled Professionalism</div>
+                  <div className="pointTitle">Consectetur Adipiscing</div>
                   <div className="pointText">
-                    Our team combines advanced training with real-world
-                    expertise to address a wide range of mental health needs.
+                    Excepteur sint occaecat cupidatat non proident.
                   </div>
                 </div>
               </div>
               <div className="whyPoint 4">
                 <img src={card3} alt="" className="whyImg" />
                 <div className="wpText">
-                  <div className="pointTitle">
-                    Genuine Therapeutic Experience
-                  </div>
+                  <div className="pointTitle">Elit Sed Do</div>
                   <div className="pointText">
-                    We create an authentic, empathetic space where clients feel
-                    understood, supported, and valued.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco.
                   </div>
                 </div>
               </div>
@@ -286,10 +273,10 @@ const Home = () => {
 
       <section className="feedbackSlide">
         <div className="feedbackNumber">
-          <span style={{ fontWeight: "600" }}>100+</span> patients have said
-          recommended our service{" "}
+          <span style={{ fontWeight: "600" }}>100+</span> lorem ipsum dolor sit
+          amet{" "}
         </div>
-        <div className="feedbackHook">Our Happy Clients Say About Us</div>
+        <div className="feedbackHook">Our Clients Say</div>
         <div className="carousalHolder">
           <img
             src={arrow}

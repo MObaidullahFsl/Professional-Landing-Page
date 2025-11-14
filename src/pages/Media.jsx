@@ -135,7 +135,7 @@ useEffect(() => {
 
           <div className="intro">Media Archive</div>
 
-          <div className="degrees">Al Zahra Psychologists</div>
+          <div className="degrees">Lorem Psychologists</div>
         </div>
       </section>
 

@@ -12,7 +12,6 @@ import {
   ytimg,
 } from "../assets/constants";
 import "../styles/contactlist.css";
-
 function ContactList() {
   const navigate = useNavigate();
   return (
@@ -30,24 +29,13 @@ function ContactList() {
                 <div> WhatsApp: </div>
               </div>
               <a
-                href="https://wa.me/971504614711?text=Hello%20I%20want%20to%20get%20treatment"
+                href="https://wa.me/14155552671?text=Hello%20I%20want%20to%20get%20information"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="clickable"
               >
-                +971504614711
+                +1 415-555-2671
               </a>
-              {/* <div
-                className="clickable"
-                onClick={() =>
-                  window.open(
-                    "https://wa.me/971504614711?text=Hello%20I%20want%20to%20get%20treatment",
-                    "_blank",
-                  )
-                }
-              >
-                +971504614711
-              </div> */}
             </div>
 
             <div className="titleabt cul">
@@ -55,16 +43,9 @@ function ContactList() {
                 <img src={phone} alt="" />
                 <div> Phone: </div>
               </div>
-              <a href="tel:+971504614711" className="clickable">
-                +971504614711
+              <a href="tel:+442071838750" className="clickable">
+                +44 20 7183 8750
               </a>
-
-              {/* <div
-                className="clickable"
-                onClick={() => (window.location.href = "tel:+971504614711")}
-              >
-                +971504614711
-              </div> */}
             </div>
 
             <div className="titleabt cul">
@@ -75,45 +56,45 @@ function ContactList() {
               <div
                 className="clickable"
                 onClick={() =>
-                  (window.location.href = "mailto:Javaria.zahra@gmail.com")
+                  (window.location.href = "mailto:contact@example.com")
                 }
               >
-                Javaria.zahra@gmail.com
+                contact@example.com
               </div>
             </div>
           </FadeIn>
         </div>
+
         <div className="culFollow">
           <div className="contactUsLine">
             <b>Follow our pages!</b>
           </div>
           <div className="footerLinks">
-            <div className="">
-              <a href="https://www.instagram.com/javariazahra/"></a>
+            <div>
+              <a href="https://www.instagram.com/placeholder/"></a>
               <img src={igimg} alt="ig" className="instagram footerimg" />
             </div>
 
-            <div
-              className="
-                    "
-            >
-              <a href="https://www.youtube.com/@javariazahra_psychologist">
+            <div>
+              <a href="https://www.youtube.com/@placeholder">
                 <img src={ytimg} alt="yt" className="youtube footerimg" />
               </a>
             </div>
 
-            <div className="">
-              <a href="https://www.linkedin.com/in/javaria-zahra-gold-medalist-10914475/">
-                <img src={inimg} alt="ws" className="whatsapp footerimg" />
+            <div>
+              <a href="https://www.linkedin.com/in/placeholder/">
+                <img src={inimg} alt="linkedin" className="linkedin footerimg" />
               </a>
             </div>
-            <div className="">
-              <a href="https://www.facebook.com/p/Javaria-Zahra-100094043812669/">
+
+            <div>
+              <a href="https://www.facebook.com/placeholder/">
                 <img src={fbimg} alt="fb" className="facebook footerimg" />
               </a>
             </div>
           </div>
         </div>
+
         <div className="culBtn">
           <div className="contactUsLine">
             <b>Alternatively, book an appointment.</b>
@@ -131,6 +112,8 @@ function ContactList() {
             </button>
           </div>
         </div>
+
+      
       </section>
     </>
   );

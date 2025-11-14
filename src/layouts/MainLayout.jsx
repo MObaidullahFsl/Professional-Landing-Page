@@ -112,11 +112,10 @@ function MainLayout() {
             <div
               className=""
               onClick={() =>
-                window.open(`https://wa.me/971504614711?text=${msg}`)
+                window.open(`https://wa.me/14155552671?text=${msg}`)
               }
             >
-              +971504614711
-            </div>
++1 415-555-2671 </div>
           </div>
 
           <div className="phoneNo wsNo">
@@ -124,9 +123,9 @@ function MainLayout() {
             <img src={phone} alt="" />
             <div
               className=""
-              onClick={() => (window.location.href = "tel:+971504614711")}
+              onClick={() => (window.location.href = "tel:+14155552671")}
             >
-              +971504614711
+              +1 415-555-2671
             </div>
           </div>
         </div>
@@ -135,22 +134,22 @@ function MainLayout() {
             <div
               className="wsNo phoneDisp"
               onClick={() =>
-                window.open(`https://wa.me/971504614711?text=${msg}`)
+                window.open(`https://wa.me/14155552671?text=${msg}`)
               }
             >
               {" "}
               <img
                 src={wsimg}
                 alt=""
-                onClick={() => (window.location.href = "tel:+971504614711")}
+                onClick={() => (window.location.href = "tel:+14155552671")}
               />
-              +971504614711
+              +14155552671
             </div>
 
             <div className="phoneNo wsNo phoneDisp">
               {" "}
               <img src={phone} alt="" />
-              +971504614711
+              +14155552671
             </div>
           </div>
 
@@ -197,7 +196,7 @@ function MainLayout() {
             }}
           >
             <img src={logo} alt="" />
-            <div className="titleText">Al Zahra Psychologists</div>
+            <div className="titleText">Lorem Psychologists</div>
           </div>
 
           <button className="button-64" role="button">
@@ -282,7 +281,7 @@ function MainLayout() {
           className="wsBtn"
           onClick={() =>
             window.open(
-              "https://wa.me/971504614711?text=Hello%20I%20want%20to%20get%20treatment",
+              "https://wa.me/14155552671?text=Hello%20I%20want%20to%20get%20treatment",
               "_blank",
             )
           }
@@ -302,7 +301,7 @@ function MainLayout() {
       <footer>
         <div className="">
           <div className="footerLogo">
-            <div className="footerTitle">Al Zahra Psychologists</div>
+            <div className="footerTitle">Lorem Psychologists</div>
 
             <div className="follow">
               <div className="footerLinks">
@@ -399,7 +398,7 @@ function MainLayout() {
           </div>
         </div>
         <div className="copyright">
-          © Al Zahra Psychologists 2025 - All Rights Reserved
+          © Lorem Psychologists 2025 - All Rights Reserved
         </div>
       </footer>
     </>

@@ -72,13 +72,9 @@ const Services = () => {
 
         <div className="gradient"> </div>
         <div className="introContent">
-
-          <div className="hook">Al Zahra Psychologists</div>
+          <div className="hook">Lorem Psychologists</div>
 
           <div className="intro">{service.name}</div>
-
-          
-          
         </div>
       </section>
 
