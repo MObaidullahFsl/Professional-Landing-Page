@@ -25,9 +25,10 @@ Hosted on Vercel: **[View Live](https://vercel.com/mobaidullahfsls-projects/prof
 
 ##  Tech Stack
 - HTML / CSS / JavaScript  
-- React / Next.js (if applicable)  
+- React / React.js 
 - Vercel Hosting  
-- API integrations (email / WhatsApp)
+- Google email API
+- Meta Whatsapp API
 
 ---
 
