@@ -19,14 +19,14 @@ Hosted on Vercel: **[View Live](https://vercel.com/mobaidullahfsls-projects/prof
   - Testimonials  
   - About  
   - Contact Us  
-- Easy to customize and extend
+- Easy to customize and extend.
 
 ---
 
 ##  Tech Stack
 - HTML / CSS / JavaScript  
 - React / React.js 
-- Vercel Hosting  
+- Vercel Hosting with Serverless Functions  
 - Google email API
 - Meta Whatsapp API
 
@@ -39,3 +39,4 @@ git clone https://github.com/MObaidullahFsl/Professional-Landing-Page.git
 cd Professional-Landing-Page
 npm install
 npm run dev
+
