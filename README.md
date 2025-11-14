@@ -23,16 +23,6 @@ Hosted on Vercel: **[View Live](https://vercel.com/mobaidullahfsls-projects/prof
 
 ---
 
-##  Screenshots
-
-> Add your screenshot image files in `/screenshots` folder, then reference them like below:
-
-![Home Page](screenshots/home.png)
-![Chatbot](screenshots/chatbot.png)
-![Testimonials](screenshots/testimonials.png)
-
----
-
 ##  Tech Stack
 - HTML / CSS / JavaScript  
 - React / Next.js (if applicable)  
