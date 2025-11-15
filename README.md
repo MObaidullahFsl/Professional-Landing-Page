@@ -4,7 +4,7 @@ A modern, responsive landing page template designed for professional use—perfe
 Includes built-in email integration, WhatsApp bot support, and an AI-powered chatbot.
 
 ##  Live Demo
-Hosted on Vercel: **[View Live](https://vercel.com/mobaidullahfsls-projects/professional-landing-page)**
+Hosted on Vercel: **[View Live](https://professional-landing-page-seven.vercel.app/)**
 
 ---
 

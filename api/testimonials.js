@@ -1,9 +1,7 @@
 import * as cheerio from "cheerio";
 
-
 export default async function handler(req, res) {
   try {
- 
     const response = await fetch(
       "https://www.doctify.com/en-ae/specialist/javaria-zahra#reviews",
       {
@@ -11,7 +9,7 @@ export default async function handler(req, res) {
           "User-Agent":
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
         },
-      }
+      },
     );
 
     console.log("Fetch status:", response.status);
